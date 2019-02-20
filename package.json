@@ -1,5 +1,5 @@
 {
-  "name": "binarybotlp",
+  "name": "binarybotlanding",
   "version": "1.0.0",
   "description": "Binary.com BonaryBot",
   "main": "amp.js",
@@ -8,14 +8,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com:sashcy/binarybot.git"
+    "url": "git@github.com:sashcy/binarybot-landing.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/marketing-pages/binarybot/issues"
+    "url": "https://marketing-pages.github.io/binarybot-landing/issues"
   },
-  "homepage": "https://github.com/marketing-pages/binarybot#readme",
+  "homepage": "https://marketing-pages.github.io/binarybot-landing#readme",
   "devDependencies": {
     "connect-livereload": "^0.6.0",
     "grunt": "^1.0.3",
