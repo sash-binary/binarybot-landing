@@ -1,1 +1,1 @@
-# binarybot
+# binarybot landing page
