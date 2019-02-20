@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="40px" height="40px" viewBox="0 0 40 40" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.6 (67491) - http://www.bohemiancoding.com/sketch -->
+    <title>step-4-icon</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M23.5703125,23.2695312 L25.9375,23.2695312 L25.9375,25.0390625 L23.5703125,25.0390625 L23.5703125,29 L21.390625,29 L21.390625,25.0390625 L13.6210938,25.0390625 L13.6210938,23.7617188 L21.2617188,11.9375 L23.5703125,11.9375 L23.5703125,23.2695312 Z M16.0820312,23.2695312 L21.390625,23.2695312 L21.390625,14.9023438 L21.1328125,15.3710938 L16.0820312,23.2695312 Z" id="path-1"></path>
+    </defs>
+    <g id="Binary-Bot-Landing-Page" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Binary-Bot-Landing-Page-1" transform="translate(-635.000000, -3788.000000)">
+            <g id="How-auto-trading-works-on-Binary-Bot" transform="translate(0.000000, 3330.000000)">
+                <g id="step-4-icon" transform="translate(635.000000, 458.000000)">
+                    <circle id="circle" fill="#E98024" fill-rule="nonzero" cx="20" cy="20" r="20"></circle>
+                    <g id="4">
+                        <use fill="#000000" xlink:href="#path-1"></use>
+                        <use fill="#FFFFFF" xlink:href="#path-1"></use>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

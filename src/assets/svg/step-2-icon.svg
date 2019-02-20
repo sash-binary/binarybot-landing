@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="40px" height="40px" viewBox="0 0 40 40" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.6 (67491) - http://www.bohemiancoding.com/sketch -->
+    <title>step-2-icon</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M25.5976562,29 L14.4179688,29 L14.4179688,27.4414062 L20.3242188,20.8789062 C21.1992231,19.8867138 21.8027327,19.0800812 22.1347656,18.4589844 C22.4667985,17.8378875 22.6328125,17.1953158 22.6328125,16.53125 C22.6328125,15.6406205 22.3632839,14.9101591 21.8242188,14.3398438 C21.2851536,13.7695284 20.5664107,13.484375 19.6679688,13.484375 C18.5898384,13.484375 17.7519561,13.7910126 17.1542969,14.4042969 C16.5566376,15.0175812 16.2578125,15.8710883 16.2578125,16.9648438 L14.0898438,16.9648438 C14.0898438,15.3945234 14.5956981,14.1250048 15.6074219,13.15625 C16.6191457,12.1874952 17.9726478,11.703125 19.6679688,11.703125 C21.2539142,11.703125 22.5078079,12.1191365 23.4296875,12.9511719 C24.3515671,13.7832073 24.8125,14.8906181 24.8125,16.2734375 C24.8125,17.9531334 23.7421982,19.9531134 21.6015625,22.2734375 L17.03125,27.2304688 L25.5976562,27.2304688 L25.5976562,29 Z" id="path-1"></path>
+    </defs>
+    <g id="Binary-Bot-Landing-Page" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Binary-Bot-Landing-Page-1" transform="translate(-635.000000, -3536.000000)">
+            <g id="How-auto-trading-works-on-Binary-Bot" transform="translate(0.000000, 3330.000000)">
+                <g id="step-2-icon" transform="translate(635.000000, 206.000000)">
+                    <circle id="circle" fill="#E98024" fill-rule="nonzero" cx="20" cy="20" r="20"></circle>
+                    <g id="2">
+                        <use fill="#000000" xlink:href="#path-1"></use>
+                        <use fill="#FFFFFF" xlink:href="#path-1"></use>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

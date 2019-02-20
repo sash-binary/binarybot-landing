@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="40px" height="40px" viewBox="0 0 40 40" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.6 (67491) - http://www.bohemiancoding.com/sketch -->
+    <title>step-1-icon</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <polygon id="path-1" points="21.5429688 29 19.3632812 29 19.3632812 14.5507812 14.9921875 16.15625 14.9921875 14.1875 21.203125 11.8554688 21.5429688 11.8554688"></polygon>
+    </defs>
+    <g id="Binary-Bot-Landing-Page" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Binary-Bot-Landing-Page-1" transform="translate(-635.000000, -3410.000000)">
+            <g id="How-auto-trading-works-on-Binary-Bot" transform="translate(0.000000, 3330.000000)">
+                <g id="step-1-icon" transform="translate(635.000000, 80.000000)">
+                    <circle id="circle" fill="#E98024" fill-rule="nonzero" cx="20" cy="20" r="20"></circle>
+                    <g id="1">
+                        <use fill="#000000" xlink:href="#path-1"></use>
+                        <use fill="#FFFFFF" xlink:href="#path-1"></use>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
