@@ -21,6 +21,11 @@ h1, h2, h3, h4, li, p, a, span {
     text-rendering: optimizeLegibility;
 }
 
+h1, h2, h3, h4 {
+    margin: 0;
+    margin-bottom: 10px;
+}
+
 a, a:visited {
     color: $primaryBrandColor;
     text-decoration: none;
@@ -158,6 +163,16 @@ h4 {
     }
 }
 
+input[type=button], input[type=submit], input[type=reset] {
+    background-color: $positiveColor;
+    border: none;
+    color: $contentInverseColor;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
 /* Colors */
 .primary-color {
     color: $primaryBrandColor;
@@ -219,78 +234,6 @@ ol, ul {
     }
 }
 
-ul.bullet, ol {
-    margin: 1.25em 0 1.25em 1.25em;
-}
-
-ul.bullet > li {
-    list-style-image: svg-url('<svg width="18px" height="18px" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 18 18"><path fill="#{rgba($secondaryBrandColor, 1)}" d="M12,17.5A5.5,5.5,0,1,1,17.5,12,5.507,5.507,0,0,1,12,17.5Zm0-9A3.5,3.5,0,1,0,15.5,12,3.5,3.5,0,0,0,12,8.5Z"/></svg>');
-}
-
-ol li {
-    list-style-type: decimal;
-    list-style-image: none;
-}
-
-ul.checked {
-    > li {
-        min-height: 24px;
-        padding-left: 35px;
-
-        background: svg-url('<svg width="24px" height="24px" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><polygon fill="#{rgba($secondaryBrandColor, 1)}" points="8.308 22.298 0.399 14.39 3.934 10.854 8.308 15.228 20.066 3.47 23.601 7.005 8.308 22.298"/></svg>') no-repeat;
-    }
-}
-
-/* Table */
-table {
-    border-collapse: collapse;
-    font-size: 0.9em;
-    line-height: 1.5em;
-    width: 100%;
-
-    .even {
-        background-color: $contentInverseColor;
-    }
-    * {
-        font-size: 1em;
-    }
-    thead, th {
-        line-height: 1.1em;
-        font-weight: bold;
-        padding: 3px 8px;
-        background: $fillColor;
-        border-bottom: 1px solid $fillColor;
-        vertical-align: middle;
-
-        &#pf-bet-details {
-            text-align: left;
-        }
-        &.total {
-            background: none;
-        }
-        &.num {
-            font-weight: bold;
-        }
-    }
-    td {
-        vertical-align: top;
-        border-width: 0 1px;
-        padding: 4px;
-        border-bottom: 3px solid $fillColor;
-
-        &.num {
-            text-align: center;
-        }
-        &.text {
-            text-align: center;
-            vertical-align: middle;
-        }
-        &.tip {
-            text-align: left;
-        }
-    }
-}
-
 /* Components */
 .separator-line-thin-gray {
     height: 1px;
@@ -298,7 +241,7 @@ table {
 }
 
 .section {
-    padding: 60px 0;
+    padding: 120px 0;
 }
 
 .section-sm {
@@ -306,35 +249,7 @@ table {
 }
 
 .section-xs {
-    padding: 10px 0;
-}
-
-/* Modifiers */
-.button-xl {
-    padding: 15px 45px;
-}
-
-.center-text {
-    text-align: center;
-}
-
-.text-right {
-    text-align: right;
-}
-
-.s-box {
-    background-color: #eeeeee;
-}
-
-.c-box {
-    background-color: #dedede;
-    border: 1px solid #cccccc;
-    text-align: center;
-    padding: 20px;
-}
-
-.h-150 {
-    height: 150px;
+    padding: 20px 0;
 }
 
 /* stylelint-enable color-no-hex */

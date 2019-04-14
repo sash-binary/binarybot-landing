@@ -36,6 +36,7 @@
         'declaration-block-semicolon-space-after': 'always-single-line',
         'declaration-block-semicolon-space-before': 'never',
         'declaration-block-trailing-semicolon': 'always',
+        'declaration-no-important': [ true, {"message": "AMP error: Use and reference to !important is not allowed"} ],
         'block-closing-brace-newline-after': 'always',
         'block-closing-brace-newline-before': 'always',
         'block-no-empty': true,

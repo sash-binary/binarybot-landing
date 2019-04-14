@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="50px" height="50px" viewBox="0 0 50 50" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53.2 (72643) - https://sketchapp.com -->
+    <title>ic-real-time-notifications</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Binary-Bot-Landing-Page" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Binary-Bot-Landing-Page-1" transform="translate(-235.000000, -3138.000000)">
+            <g id="Experience-optimum-automated-trading-functionality-" transform="translate(0.000000, 2656.000000)">
+                <g id="column-1" transform="translate(235.000000, 190.000000)">
+                    <g id="ic-real-time-notifications" transform="translate(0.000000, 292.000000)">
+                        <g>
+                            <rect id="bg" x="0" y="0" width="50" height="50"></rect>
+                            <path d="M25,50 C11.22,50 0,38.78 0,25 C0,11.22 11.22,0 25,0 C38.78,0 50,11.22 50,25 C50,38.78 38.78,50 25,50 Z M25,0.98 C11.76,0.98 0.98,11.76 0.98,25 C0.98,38.24 11.75,49.02 25,49.02 C38.25,49.02 49.02,38.24 49.02,25 C49.02,11.76 38.24,0.98 25,0.98 Z" id="Shape" fill="#E98024" fill-rule="nonzero"></path>
+                            <path d="M25,40.5 C23.21,40.5 21.78,39.05 21.78,37.23 C21.78,36.94 21.85,36.65 21.92,36.43 L28.07,36.43 C28.14,36.72 28.21,36.94 28.21,37.23 C28.22,39.05 26.79,40.5 25,40.5 Z M37,34.17 L13,34.17 L13,32.08 L13,32.08 C13,31.8 13.13,31.59 13.33,31.38 C13.33,31.38 15.91,28.46 15.91,20.8 C15.91,14.81 19.74,12.3 22.85,11.54 L22.85,9.8 C22.85,8.55 23.84,7.5 25.03,7.5 C26.22,7.5 27.21,8.54 27.21,9.8 L27.21,11.54 C30.32,12.31 34.15,14.81 34.15,20.8 C34.15,28.46 36.73,31.38 36.73,31.38 C36.93,31.59 36.99,31.8 36.99,32.08 L36.99,32.08 L36.99,34.17 L37,34.17 Z" id="Shape" stroke="#E98024"></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
