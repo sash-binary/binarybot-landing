@@ -508,9 +508,6 @@ ol, ul {
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
 /* stylelint-disable number-max-precision */
-@-ms-viewport {
-  width: device-width; }
-
 html {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -1133,18 +1130,6 @@ img {
   font-weight: bold;
   line-height: 1.25; }
 
-.title-2xl {
-  font-weight: 300;
-  font-size: 52px;
-  line-height: 64px;
-  margin: 0; }
-
-.title-xl {
-  font-weight: 300;
-  font-size: 48px;
-  line-height: 54px;
-  margin: 0; }
-
 .title-md {
   font-weight: 300;
   font-size: 36px;
@@ -1156,9 +1141,6 @@ img {
   line-height: 28px;
   margin: 0; }
 
-.ft-40 {
-  font-size: 40px; }
-
 .divider-md {
   height: 30px; }
 
@@ -1168,6 +1150,113 @@ img {
 .bot-icon-divider {
   height: 24px;
   display: block; }
+
+.bot-box {
+  position: relative;
+  background-color: #ffffff;
+  border: 1px solid #dedede;
+  padding: 20px;
+  margin-top: 30px; }
+
+.footer-banner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 40px 20px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(42, 48, 82, 0.5)), to(rgba(42, 48, 82, 0))), url("/assets/images/footer-banner.png") no-repeat;
+  background: linear-gradient(rgba(42, 48, 82, 0.5), rgba(42, 48, 82, 0)), url("/assets/images/footer-banner.png") no-repeat;
+  background-size: cover;
+  background-position: center;
+  min-height: 238px;
+  border-radius: 8px; }
+  .footer-banner h2 {
+    margin-bottom: 30px; }
+
+.scrollToTop {
+  color: #ffffff;
+  font-size: 1.4em;
+  -webkit-box-shadow: 0 1px 1.5px 0 rgba(0, 0, 0, 0.12), 0 1px 1px 0 rgba(0, 0, 0, 0.24);
+          box-shadow: 0 1px 1.5px 0 rgba(0, 0, 0, 0.12), 0 1px 1px 0 rgba(0, 0, 0, 0.24);
+  width: 50px;
+  height: 50px;
+  border-radius: 100px;
+  border: none;
+  outline: none;
+  background: #e98024;
+  z-index: 9999;
+  bottom: 10px;
+  right: 10px;
+  position: fixed;
+  opacity: 0;
+  visibility: hidden;
+  padding-top: 7px;
+  cursor: pointer; }
+
+#marker {
+  position: absolute;
+  top: 100px;
+  width: 0px;
+  height: 0px; }
+
+/* stylelint-enable color-no-hex */
+@media screen and (max-width: 1198px) {
+  .logo {
+    text-align: center;
+    display: block; }
+  .language-nav {
+    display: block;
+    text-align: center;
+    margin-top: 25px;
+    margin-left: auto;
+    margin-right: auto;
+    float: none; }
+  .main-nav {
+    text-align: center;
+    display: block;
+    width: 100%; }
+  .header-nav {
+    text-align: center;
+    display: block;
+    width: 100%; } }
+
+@media screen and (max-width: 1024px) {
+  .lg-center {
+    text-align: center; }
+  .header-content {
+    margin-top: 100px; } }
+
+@media screen and (max-width: 810px) {
+  .logo {
+    position: fixed;
+    top: 15px;
+    left: 0px; }
+  .main-nav {
+    display: none; }
+  .language-nav {
+    display: none; }
+  .mobile-menu-button {
+    display: inline-block; } }
+
+@media screen and (max-width: 520px) {
+  .button, .button-secondary {
+    display: block;
+    margin: 5px; } }
+
+.icon-uk {
+  background-image: url("/assets/images/british-flag-small.png"); }
+
+.icon-id {
+  background-image: url("/assets/images/indonesian-flag-small.png"); }
 
 .left-col-feature, .right-col-feature {
   display: table-cell;
@@ -1279,117 +1368,6 @@ img {
   background-position: center;
   height: 40px;
   width: 40px; }
-
-.bot-box {
-  position: relative;
-  background-color: #ffffff;
-  border: 1px solid #dedede;
-  padding: 20px;
-  margin-top: 30px; }
-
-.footer-banner {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  padding: 40px 20px;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  background: -webkit-gradient(linear, left top, left bottom, from(rgba(42, 48, 82, 0.5)), to(rgba(42, 48, 82, 0))), url("/assets/images/footer-banner.png") no-repeat;
-  background: linear-gradient(rgba(42, 48, 82, 0.5), rgba(42, 48, 82, 0)), url("/assets/images/footer-banner.png") no-repeat;
-  background-size: cover;
-  background-position: center;
-  min-height: 238px;
-  border-radius: 8px; }
-  .footer-banner h2 {
-    margin-bottom: 30px; }
-
-.scrollToTop {
-  color: #ffffff;
-  font-size: 1.4em;
-  -webkit-box-shadow: 0 1px 1.5px 0 rgba(0, 0, 0, 0.12), 0 1px 1px 0 rgba(0, 0, 0, 0.24);
-          box-shadow: 0 1px 1.5px 0 rgba(0, 0, 0, 0.12), 0 1px 1px 0 rgba(0, 0, 0, 0.24);
-  width: 50px;
-  height: 50px;
-  border-radius: 100px;
-  border: none;
-  outline: none;
-  background: #e98024;
-  z-index: 9999;
-  bottom: 10px;
-  right: 10px;
-  position: fixed;
-  opacity: 0;
-  visibility: hidden;
-  padding-top: 7px;
-  cursor: pointer; }
-
-#marker {
-  position: absolute;
-  top: 100px;
-  width: 0px;
-  height: 0px; }
-
-/* stylelint-enable color-no-hex */
-@media screen and (max-width: 1198px) {
-  .logo {
-    text-align: center;
-    display: block; }
-  .language-nav {
-    display: block;
-    text-align: center;
-    margin-top: 25px;
-    margin-left: auto;
-    margin-right: auto;
-    float: none; }
-  .main-nav {
-    text-align: center;
-    display: block;
-    width: 100%; }
-  .header-nav {
-    text-align: center;
-    display: block;
-    width: 100%; } }
-
-@media screen and (max-width: 1024px) {
-  .lg-center {
-    text-align: center; }
-  .header-content {
-    margin-top: 100px; } }
-
-@media screen and (max-width: 810px) {
-  .logo {
-    position: fixed;
-    top: 15px;
-    left: 0px; }
-  .main-nav {
-    display: none; }
-  .language-nav {
-    display: none; }
-  .mobile-menu-button {
-    display: inline-block; } }
-
-@media screen and (max-width: 520px) {
-  .button, .button-secondary {
-    display: block;
-    margin: 5px; }
-  .title-xl, .title-2xl {
-    font-size: 36px;
-    line-height: 36px;
-    margin-top: 30px; } }
-
-.icon-uk {
-  background-image: url("/assets/images/british-flag-small.png"); }
-
-.icon-id {
-  background-image: url("/assets/images/indonesian-flag-small.png"); }
 
 .page-sidebar {
   width: 250px;
