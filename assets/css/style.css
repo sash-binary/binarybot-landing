@@ -1160,7 +1160,7 @@ img {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  padding: 40px 20px;
+  padding: 40px 0px;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -1169,7 +1169,8 @@ img {
   background-size: cover;
   background-position: center;
   min-height: 238px;
-  border-radius: 8px; }
+  border-radius: 8px;
+  text-align: center; }
   .footer-banner h2 {
     margin-bottom: 30px; }
 
@@ -1224,7 +1225,15 @@ img {
   .lg-center {
     text-align: center; }
   .header-content {
-    margin-top: 100px; } }
+    margin-top: 100px; }
+  .md-center {
+    text-align: center; }
+  .video {
+    margin-top: 40px; }
+  .order-lg-first {
+    -ms-flex-order: -1;
+    -webkit-box-ordinal-group: 0;
+            order: -1; } }
 
 @media screen and (max-width: 810px) {
   .logo {
@@ -1236,7 +1245,11 @@ img {
   .language-nav {
     display: none; }
   .mobile-menu-button {
-    display: inline-block; } }
+    display: inline-block; }
+  .footer-banner .bot-title {
+    font-size: 36px; }
+  .inline-icons {
+    margin-bottom: 30px; } }
 
 @media screen and (max-width: 520px) {
   .button, .button-secondary {
@@ -1294,6 +1307,14 @@ img {
   width: 50px;
   height: 50px; }
 
+.icon-md {
+  width: 70px;
+  height: 70px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 40px;
+  margin-bottom: 15px; }
+
 .icon-users-left {
   background: url("../assets/svg/ic-users.svg");
   background-repeat: no-repeat;
@@ -1342,9 +1363,9 @@ img {
 
 .icon-trade-summary {
   background: url("../assets/svg/ic-detailed-trade-summary.svg");
+  height: 36px;
   background-repeat: no-repeat;
-  background-position: center;
-  height: 36px; }
+  background-position: center; }
 
 .icon-notifications {
   background: url("../assets/svg/ic-real-time-notifications.svg");
@@ -1383,6 +1404,36 @@ img {
   background-position: center;
   height: 40px;
   width: 40px; }
+
+.icon-config {
+  background: url("../assets/svg/ic-configured-for-automation.svg");
+  background-repeat: no-repeat;
+  background-position: center; }
+
+.icon-multiple-assets {
+  background: url("../assets/svg/ic-multiple-assets.svg");
+  background-repeat: no-repeat;
+  background-position: center; }
+
+.icon-intuitive-interface {
+  background: url("../assets/svg/ic-intuitive-interface.svg");
+  background-repeat: no-repeat;
+  background-position: center; }
+
+.icon-incredibly-reliable {
+  background: url("../assets/svg/ic-incredibly-reliable.svg");
+  background-repeat: no-repeat;
+  background-position: center; }
+
+.icon-risk-free-trial-environment {
+  background: url("../assets/svg/ic-risk-free-trial-environment.svg");
+  background-repeat: no-repeat;
+  background-position: center; }
+
+.icon-revenue-opportunity {
+  background: url("../assets/svg/ic-revenue-opportunity.svg");
+  background-repeat: no-repeat;
+  background-position: center; }
 
 .page-sidebar {
   width: 250px;
@@ -1496,3 +1547,6 @@ img {
 
 .block-element {
   display: block; }
+
+.b-m-30 {
+  margin-bottom: 30px; }
