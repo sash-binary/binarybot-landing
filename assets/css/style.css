@@ -1258,13 +1258,20 @@ img {
   width: 28px;
   height: 18px;
   background-repeat: no-repeat;
-  background-position: center; }
+  background-position: center;
+  background-size: cover; }
 
 .icon-uk {
   background-image: url("/assets/images/british-flag-small.png"); }
 
 .icon-id {
   background-image: url("/assets/images/indonesian-flag-small.png"); }
+
+.icon-uk-lg {
+  background-image: url("/assets/images/united_kingdom.png"); }
+
+.icon-id-lg {
+  background-image: url("/assets/images/id.png"); }
 
 .left-col-feature, .right-col-feature {
   display: table-cell;
@@ -1382,11 +1389,16 @@ img {
   padding: 0px;
   background-color: #ffffff; }
   .page-sidebar .language-icon {
+    width: 40px;
+    height: 30px;
     -webkit-box-shadow: 0px 5px 8px #999999;
             box-shadow: 0px 5px 8px #999999; }
 
 .sidebar-header {
-  padding: 20px; }
+  padding: 20px;
+  text-align: center; }
+  .sidebar-header .sidebar-language-nav {
+    margin-top: 20px; }
 
 .page-sidebar > * {
   margin-top: 0px; }
@@ -1427,12 +1439,6 @@ img {
 
 #sidebar-left nav.amp-sidebar-toolbar-target-shown {
   display: none; }
-
-.grill-button {
-  cursor: pointer;
-  padding: 20px;
-  font-size: 20px;
-  color: #ffffff; }
 
 .cta {
   margin: 30px 0; }
