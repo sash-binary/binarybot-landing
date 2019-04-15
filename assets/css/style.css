@@ -1077,15 +1077,6 @@ img {
   margin: 0 5px;
   background-color: #ffffff; }
 
-.language-icon {
-  display: inline-block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 28px;
-  height: 18px;
-  background-repeat: no-repeat;
-  background-position: center; }
-
 .mobile-menu-button {
   color: #ffffff;
   font-size: 36px;
@@ -1093,8 +1084,8 @@ img {
   outline: none;
   display: none;
   position: fixed;
-  top: 15px;
-  right: 20px; }
+  top: 25px;
+  right: 25px; }
 
 .header {
   display: -webkit-box;
@@ -1252,6 +1243,23 @@ img {
     display: block;
     margin: 5px; } }
 
+.icon-menu {
+  width: 40px;
+  height: 35px;
+  background-image: url("/assets/svg/menu.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  border: 0px solid #ffffff; }
+
+.language-icon {
+  display: inline-block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 28px;
+  height: 18px;
+  background-repeat: no-repeat;
+  background-position: center; }
+
 .icon-uk {
   background-image: url("/assets/images/british-flag-small.png"); }
 
@@ -1373,6 +1381,9 @@ img {
   width: 250px;
   padding: 0px;
   background-color: #ffffff; }
+  .page-sidebar .language-icon {
+    -webkit-box-shadow: 0px 5px 8px #999999;
+            box-shadow: 0px 5px 8px #999999; }
 
 .sidebar-header {
   padding: 20px; }
@@ -1392,7 +1403,7 @@ img {
     border-bottom: 1px solid #f2f2f2;
     padding: 0;
     margin: 0; }
-    .page-sidebar ul li :hover {
+    .page-sidebar ul li:hover {
       background-color: #f2f2f2; }
     .page-sidebar ul li a {
       font-size: 20px;
