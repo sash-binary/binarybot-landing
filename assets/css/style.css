@@ -1536,12 +1536,6 @@ img {
 .uppercase {
   text-transform: uppercase; }
 
-.spacing-1 {
-  letter-spacing: 1px; }
-
-.testBG {
-  background-color: #cccccc; }
-
 .fixed {
   position: fixed; }
 
