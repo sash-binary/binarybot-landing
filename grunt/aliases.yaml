@@ -10,6 +10,18 @@ default:
   - 'htmlmin'
   - 'connect:livereload'
   - 'watch'
+
+test:
+  - 'stylelint'
+  - 'sass'
+  - 'postcss'
+  - 'cssmin'
+  - 'svgmin'
+  - 'image'
+  - 'copy'
+  - 'includes'
+  - 'connect:livereload'
+  - 'watch'
   
 deploy:
   - 'buildcontrol' 

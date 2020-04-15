@@ -93,7 +93,7 @@
     padding-top: 160px;
     justify-content: center;
     align-items: center;
-    background: linear-gradient(rgba(42, 48, 82, 0.5), rgba(42, 48, 82, 0)), url('/assets/images/header-background.jpg') no-repeat;
+    background: linear-gradient(rgba(42, 48, 82, 0.5), rgba(42, 48, 82, 0)), url('assets/images/header-background.jpg') no-repeat;
     background-size: cover;
     background-position: center;
 }
@@ -189,55 +189,55 @@
 }
 
 .icon-users-left {
-    background: url('../assets/svg/ic-users.svg');
+    background: url('assets/svg/ic-users.svg');
     background-repeat: no-repeat;
     background-position: center;
 }
 
 .icon-users-right {
-    background: url('../assets/svg/6000.svg');
+    background: url('assets/svg/6000.svg');
     background-repeat: no-repeat;
     background-position: center;
 }
 
 .icon-contracts-left {
-    background: url('../assets/svg/ic-contracts.svg');
+    background: url('assets/svg/ic-contracts.svg');
     background-repeat: no-repeat;
     background-position: center;
 }
 
 .icon-contracts-right {
-    background: url('../assets/svg/40-1m.svg');
+    background: url('assets/svg/40-1m.svg');
     background-repeat: no-repeat;
     background-position: center;
 }
 
 .icon-turnover-left {
-    background: url('../assets/svg/ic-turnover.svg');
+    background: url('assets/svg/ic-turnover.svg');
     background-repeat: no-repeat;
     background-position: center;
 }
 
 .icon-turnover-right {
-    background: url('../assets/svg/134m.svg');
+    background: url('assets/svg/134m.svg');
     background-repeat: no-repeat;
     background-position: center;
 }
 
 .icon-drag {
-    background: url('../assets/svg/ic-simple-drag-and-drop-interface.svg');
+    background: url('assets/svg/ic-simple-drag-and-drop-interface.svg');
     background-repeat: no-repeat;
     background-position: center;
 }
 
 .icon-customize {
-    background: url('../assets/svg/ic-highly-customisable-parts.svg');
+    background: url('assets/svg/ic-highly-customisable-parts.svg');
     background-repeat: no-repeat;
     background-position: center;
 }
 
 .icon-controls {
-    background: url('../assets/svg/ic-convenient-controls.svg');
+    background: url('assets/svg/ic-convenient-controls.svg');
     background-repeat: no-repeat;
     background-position: center;
     height: 52px;
@@ -251,13 +251,13 @@
 }
 
 .icon-notifications {
-    background: url('../assets/svg/ic-real-time-notifications.svg');
+    background: url('assets/svg/ic-real-time-notifications.svg');
     background-repeat: no-repeat;
     background-position: center;
 }
 
 .icon-tutorials {
-    background: url('../assets/svg/ic-straightforward-tutorial.svg');
+    background: url('assets/svg/ic-straightforward-tutorial.svg');
     background-repeat: no-repeat;
     background-position: center;
 }
@@ -279,7 +279,7 @@
 }
 
 .icon-step-3 {
-    background: url('../assets/svg/step-3-icon.svg');
+    background: url('assets/svg/step-3-icon.svg');
     background-repeat: no-repeat;
     background-position: center;
     height: 40px;
@@ -287,7 +287,7 @@
 }
 
 .icon-step-4 {
-    background: url('../assets/svg/step-4-icon.svg');
+    background: url('assets/svg/step-4-icon.svg');
     background-repeat: no-repeat;
     background-position: center;
     height: 40px;
@@ -308,7 +308,7 @@
     justify-content: center;
     padding: 40px 20px;
     align-items: center;
-    background: linear-gradient(rgba(42, 48, 82, 0.5), rgba(42, 48, 82, 0)), url('/assets/images/footer-banner.png') no-repeat;
+    background: linear-gradient(rgba(42, 48, 82, 0.5), rgba(42, 48, 82, 0)), url('assets/images/footer-banner.png') no-repeat;
     background-size: cover;
     background-position: center;
     min-height: 238px;

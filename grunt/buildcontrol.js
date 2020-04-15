@@ -8,7 +8,7 @@ module.exports = function (grunt) {
         },
         pages: {
           options: {
-            remote: 'git@github.com:sashcy/binarybot-landing.git',
+            remote: 'git@github.com:sash-binary/binarybot-landing.git',
             branch: 'gh-pages'
           }
         },
