@@ -1253,14 +1253,14 @@ img {
   background-position: center; }
 
 .icon-step-1 {
-  background: url("../assets/svg/step-1-icon.svg");
+  background: url("assets/svg/step-1-icon.svg");
   background-repeat: no-repeat;
   background-position: center;
   height: 40px;
   width: 40px; }
 
 .icon-step-2 {
-  background: url("../assets/svg/step-2-icon.svg");
+  background: url("assets/svg/step-2-icon.svg");
   background-repeat: no-repeat;
   background-position: center;
   height: 40px;
