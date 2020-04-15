@@ -508,6 +508,9 @@ ol, ul {
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
 /* stylelint-disable number-max-precision */
+@-ms-viewport {
+  width: device-width; }
+
 html {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -1077,6 +1080,15 @@ img {
   margin: 0 5px;
   background-color: #ffffff; }
 
+.language-icon {
+  display: inline-block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 28px;
+  height: 18px;
+  background-repeat: no-repeat;
+  background-position: center; }
+
 .mobile-menu-button {
   color: #ffffff;
   font-size: 36px;
@@ -1084,8 +1096,8 @@ img {
   outline: none;
   display: none;
   position: fixed;
-  top: 25px;
-  right: 25px; }
+  top: 15px;
+  right: 20px; }
 
 .header {
   display: -webkit-box;
@@ -1099,8 +1111,8 @@ img {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  background: -webkit-gradient(linear, left top, left bottom, from(rgba(42, 48, 82, 0.5)), to(rgba(42, 48, 82, 0))), url("/assets/images/header-background.jpg") no-repeat;
-  background: linear-gradient(rgba(42, 48, 82, 0.5), rgba(42, 48, 82, 0)), url("/assets/images/header-background.jpg") no-repeat;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(42, 48, 82, 0.5)), to(rgba(42, 48, 82, 0))), url("assets/images/header-background.jpg") no-repeat;
+  background: linear-gradient(rgba(42, 48, 82, 0.5), rgba(42, 48, 82, 0)), url("assets/images/header-background.jpg") no-repeat;
   background-size: cover;
   background-position: center; }
 
@@ -1121,6 +1133,18 @@ img {
   font-weight: bold;
   line-height: 1.25; }
 
+.title-2xl {
+  font-weight: 300;
+  font-size: 52px;
+  line-height: 64px;
+  margin: 0; }
+
+.title-xl {
+  font-weight: 300;
+  font-size: 48px;
+  line-height: 54px;
+  margin: 0; }
+
 .title-md {
   font-weight: 300;
   font-size: 36px;
@@ -1132,6 +1156,9 @@ img {
   line-height: 28px;
   margin: 0; }
 
+.ft-40 {
+  font-size: 40px; }
+
 .divider-md {
   height: 30px; }
 
@@ -1141,6 +1168,117 @@ img {
 .bot-icon-divider {
   height: 24px;
   display: block; }
+
+.left-col-feature, .right-col-feature {
+  display: table-cell;
+  vertical-align: top;
+  padding: 10px; }
+
+.inline-icon-left, .inline-icon-right {
+  display: inline-block;
+  margin: 0; }
+
+.inline-icon-left {
+  width: 70px;
+  height: 70px; }
+
+.inline-icon-right {
+  width: 160px;
+  height: 70px; }
+
+.icon-block {
+  width: 50px;
+  height: 50px; }
+
+.icon-users-left {
+  background: url("assets/svg/ic-users.svg");
+  background-repeat: no-repeat;
+  background-position: center; }
+
+.icon-users-right {
+  background: url("assets/svg/6000.svg");
+  background-repeat: no-repeat;
+  background-position: center; }
+
+.icon-contracts-left {
+  background: url("assets/svg/ic-contracts.svg");
+  background-repeat: no-repeat;
+  background-position: center; }
+
+.icon-contracts-right {
+  background: url("assets/svg/40-1m.svg");
+  background-repeat: no-repeat;
+  background-position: center; }
+
+.icon-turnover-left {
+  background: url("assets/svg/ic-turnover.svg");
+  background-repeat: no-repeat;
+  background-position: center; }
+
+.icon-turnover-right {
+  background: url("assets/svg/134m.svg");
+  background-repeat: no-repeat;
+  background-position: center; }
+
+.icon-drag {
+  background: url("assets/svg/ic-simple-drag-and-drop-interface.svg");
+  background-repeat: no-repeat;
+  background-position: center; }
+
+.icon-customize {
+  background: url("assets/svg/ic-highly-customisable-parts.svg");
+  background-repeat: no-repeat;
+  background-position: center; }
+
+.icon-controls {
+  background: url("assets/svg/ic-convenient-controls.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 52px; }
+
+.icon-trade-summary {
+  background: url("../assets/svg/ic-detailed-trade-summary.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 36px; }
+
+.icon-notifications {
+  background: url("assets/svg/ic-real-time-notifications.svg");
+  background-repeat: no-repeat;
+  background-position: center; }
+
+.icon-tutorials {
+  background: url("assets/svg/ic-straightforward-tutorial.svg");
+  background-repeat: no-repeat;
+  background-position: center; }
+
+.icon-step-1 {
+  background: url("../assets/svg/step-1-icon.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 40px;
+  width: 40px; }
+
+.icon-step-2 {
+  background: url("../assets/svg/step-2-icon.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 40px;
+  width: 40px; }
+
+.icon-step-3 {
+  background: url("assets/svg/step-3-icon.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 40px;
+  width: 40px; }
+
+.icon-step-4 {
+  background: url("assets/svg/step-4-icon.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 40px;
+  width: 40px; }
 
 .bot-box {
   position: relative;
@@ -1160,17 +1298,16 @@ img {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  padding: 40px 0px;
+  padding: 40px 20px;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  background: -webkit-gradient(linear, left top, left bottom, from(rgba(42, 48, 82, 0.5)), to(rgba(42, 48, 82, 0))), url("/assets/images/footer-banner.png") no-repeat;
-  background: linear-gradient(rgba(42, 48, 82, 0.5), rgba(42, 48, 82, 0)), url("/assets/images/footer-banner.png") no-repeat;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(42, 48, 82, 0.5)), to(rgba(42, 48, 82, 0))), url("assets/images/footer-banner.png") no-repeat;
+  background: linear-gradient(rgba(42, 48, 82, 0.5), rgba(42, 48, 82, 0)), url("assets/images/footer-banner.png") no-repeat;
   background-size: cover;
   background-position: center;
   min-height: 238px;
-  border-radius: 8px;
-  text-align: center; }
+  border-radius: 8px; }
   .footer-banner h2 {
     margin-bottom: 30px; }
 
@@ -1225,15 +1362,7 @@ img {
   .lg-center {
     text-align: center; }
   .header-content {
-    margin-top: 100px; }
-  .md-center {
-    text-align: center; }
-  .video {
-    margin-top: 40px; }
-  .order-lg-first {
-    -ms-flex-order: -1;
-    -webkit-box-ordinal-group: 0;
-            order: -1; } }
+    margin-top: 100px; } }
 
 @media screen and (max-width: 810px) {
   .logo {
@@ -1245,211 +1374,30 @@ img {
   .language-nav {
     display: none; }
   .mobile-menu-button {
-    display: inline-block; }
-  .footer-banner .bot-title {
-    font-size: 36px; }
-  .inline-icons {
-    margin-bottom: 30px; } }
+    display: inline-block; } }
 
 @media screen and (max-width: 520px) {
   .button, .button-secondary {
     display: block;
-    margin: 5px; } }
-
-.icon-menu {
-  width: 40px;
-  height: 35px;
-  background-image: url("/assets/svg/menu.svg");
-  background-repeat: no-repeat;
-  background-position: center;
-  border: 0px solid #ffffff; }
-
-.language-icon {
-  display: inline-block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 28px;
-  height: 18px;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover; }
+    margin: 5px; }
+  .title-xl, .title-2xl {
+    font-size: 36px;
+    line-height: 36px;
+    margin-top: 30px; } }
 
 .icon-uk {
-  background-image: url("/assets/images/british-flag-small.png"); }
+  background-image: url("assets/images/british-flag-small.png"); }
 
 .icon-id {
-  background-image: url("/assets/images/indonesian-flag-small.png"); }
-
-.icon-uk-lg {
-  background-image: url("/assets/images/united_kingdom.png"); }
-
-.icon-id-lg {
-  background-image: url("/assets/images/id.png"); }
-
-.left-col-feature, .right-col-feature {
-  display: table-cell;
-  vertical-align: top;
-  padding: 10px; }
-
-.inline-icon-left, .inline-icon-right {
-  display: inline-block;
-  margin: 0; }
-
-.inline-icon-left {
-  width: 70px;
-  height: 70px; }
-
-.inline-icon-right {
-  width: 160px;
-  height: 70px; }
-
-.icon-block {
-  width: 50px;
-  height: 50px; }
-
-.icon-md {
-  width: 70px;
-  height: 70px;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 40px;
-  margin-bottom: 15px; }
-
-.icon-users-left {
-  background: url("../assets/svg/ic-users.svg");
-  background-repeat: no-repeat;
-  background-position: center; }
-
-.icon-users-right {
-  background: url("../assets/svg/6000.svg");
-  background-repeat: no-repeat;
-  background-position: center; }
-
-.icon-contracts-left {
-  background: url("../assets/svg/ic-contracts.svg");
-  background-repeat: no-repeat;
-  background-position: center; }
-
-.icon-contracts-right {
-  background: url("../assets/svg/40-1m.svg");
-  background-repeat: no-repeat;
-  background-position: center; }
-
-.icon-turnover-left {
-  background: url("../assets/svg/ic-turnover.svg");
-  background-repeat: no-repeat;
-  background-position: center; }
-
-.icon-turnover-right {
-  background: url("../assets/svg/134m.svg");
-  background-repeat: no-repeat;
-  background-position: center; }
-
-.icon-drag {
-  background: url("../assets/svg/ic-simple-drag-and-drop-interface.svg");
-  background-repeat: no-repeat;
-  background-position: center; }
-
-.icon-customize {
-  background: url("../assets/svg/ic-highly-customisable-parts.svg");
-  background-repeat: no-repeat;
-  background-position: center; }
-
-.icon-controls {
-  background: url("../assets/svg/ic-convenient-controls.svg");
-  background-repeat: no-repeat;
-  background-position: center;
-  height: 52px; }
-
-.icon-trade-summary {
-  background: url("../assets/svg/ic-detailed-trade-summary.svg");
-  height: 36px;
-  background-repeat: no-repeat;
-  background-position: center; }
-
-.icon-notifications {
-  background: url("../assets/svg/ic-real-time-notifications.svg");
-  background-repeat: no-repeat;
-  background-position: center; }
-
-.icon-tutorials {
-  background: url("../assets/svg/ic-straightforward-tutorial.svg");
-  background-repeat: no-repeat;
-  background-position: center; }
-
-.icon-step-1 {
-  background: url("../assets/svg/step-1-icon.svg");
-  background-repeat: no-repeat;
-  background-position: center;
-  height: 40px;
-  width: 40px; }
-
-.icon-step-2 {
-  background: url("../assets/svg/step-2-icon.svg");
-  background-repeat: no-repeat;
-  background-position: center;
-  height: 40px;
-  width: 40px; }
-
-.icon-step-3 {
-  background: url("../assets/svg/step-3-icon.svg");
-  background-repeat: no-repeat;
-  background-position: center;
-  height: 40px;
-  width: 40px; }
-
-.icon-step-4 {
-  background: url("../assets/svg/step-4-icon.svg");
-  background-repeat: no-repeat;
-  background-position: center;
-  height: 40px;
-  width: 40px; }
-
-.icon-config {
-  background: url("../assets/svg/ic-configured-for-automation.svg");
-  background-repeat: no-repeat;
-  background-position: center; }
-
-.icon-multiple-assets {
-  background: url("../assets/svg/ic-multiple-assets.svg");
-  background-repeat: no-repeat;
-  background-position: center; }
-
-.icon-intuitive-interface {
-  background: url("../assets/svg/ic-intuitive-interface.svg");
-  background-repeat: no-repeat;
-  background-position: center; }
-
-.icon-incredibly-reliable {
-  background: url("../assets/svg/ic-incredibly-reliable.svg");
-  background-repeat: no-repeat;
-  background-position: center; }
-
-.icon-risk-free-trial-environment {
-  background: url("../assets/svg/ic-risk-free-trial-environment.svg");
-  background-repeat: no-repeat;
-  background-position: center; }
-
-.icon-revenue-opportunity {
-  background: url("../assets/svg/ic-revenue-opportunity.svg");
-  background-repeat: no-repeat;
-  background-position: center; }
+  background-image: url("assets/images/indonesian-flag-small.png"); }
 
 .page-sidebar {
   width: 250px;
   padding: 0px;
   background-color: #ffffff; }
-  .page-sidebar .language-icon {
-    width: 40px;
-    height: 30px;
-    -webkit-box-shadow: 0px 5px 8px #999999;
-            box-shadow: 0px 5px 8px #999999; }
 
 .sidebar-header {
-  padding: 20px;
-  text-align: center; }
-  .sidebar-header .sidebar-language-nav {
-    margin-top: 20px; }
+  padding: 20px; }
 
 .page-sidebar > * {
   margin-top: 0px; }
@@ -1466,7 +1414,7 @@ img {
     border-bottom: 1px solid #f2f2f2;
     padding: 0;
     margin: 0; }
-    .page-sidebar ul li:hover {
+    .page-sidebar ul li :hover {
       background-color: #f2f2f2; }
     .page-sidebar ul li a {
       font-size: 20px;
@@ -1490,6 +1438,12 @@ img {
 
 #sidebar-left nav.amp-sidebar-toolbar-target-shown {
   display: none; }
+
+.grill-button {
+  cursor: pointer;
+  padding: 20px;
+  font-size: 20px;
+  color: #ffffff; }
 
 .cta {
   margin: 30px 0; }
@@ -1536,11 +1490,14 @@ img {
 .uppercase {
   text-transform: uppercase; }
 
+.spacing-1 {
+  letter-spacing: 1px; }
+
+.testBG {
+  background-color: #cccccc; }
+
 .fixed {
   position: fixed; }
 
 .block-element {
   display: block; }
-
-.b-m-30 {
-  margin-bottom: 30px; }
